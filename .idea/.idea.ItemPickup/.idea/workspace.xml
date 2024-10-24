@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dea5e31-d507-4d5f-8525-8404b86d23df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ItemPickup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ItemPickup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/PlayerActions.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input/PlayerActions.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HorizontalBalk.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HorizontalBalk.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/VerticalBalk.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/VerticalBalk.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pack_FREE_Cars/Prefabs/Pickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pack_FREE_Cars/Prefabs/Pickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="8dea5e31-d507-4d5f-8525-8404b86d23df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729721032008</updated>
-      <workItem from="1729721039307" duration="4971000" />
+      <workItem from="1729721039307" duration="5134000" />
     </task>
     <servers />
   </component>
