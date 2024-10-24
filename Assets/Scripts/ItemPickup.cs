@@ -10,6 +10,9 @@ public class ItemPickup : MonoBehaviour
 
     private GameObject _heldItem;
 
+    private readonly Vector3 _heldItemPosition = new(0, 0, 1);
+    private readonly Vector3 _placedItemPosition = new(0, 1, 0);
+
     private void Awake()
     {
         _playerControls = new PlayerInputActions();
@@ -52,7 +55,7 @@ public class ItemPickup : MonoBehaviour
                 _heldItem = hit.transform.gameObject;
                 _heldItem.GetComponent<Rigidbody>().isKinematic = true;
                 _heldItem.transform.SetParent(_playerCamera.transform);
-                _heldItem.transform.localPosition = new Vector3(0, 0, 1);
+                _heldItem.transform.localPosition = _heldItemPosition;
             }
         }
     }
@@ -66,7 +69,7 @@ public class ItemPickup : MonoBehaviour
             if (hit.transform.CompareTag("PickupTruck"))
             {
                 _heldItem.transform.SetParent(hit.transform);
-                _heldItem.transform.localPosition = new Vector3(0, 1, 0);
+                _heldItem.transform.localPosition = _placedItemPosition;
                 _heldItem.GetComponent<Rigidbody>().isKinematic = false;
                 _heldItem = null;
             }
